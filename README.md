@@ -1,4 +1,11 @@
 # tempdoc
+
+. Unused / Dead Imports & Component Purger (Code Hygiene)
+The Repetitive Pain: Over time, as a React project grows, developers leave behind unused component imports, unused assets, or deprecated components that bloat the bundle size.
+
+The AI Skill Automation: A script that parses your React source directories, matches declared imports against project files, identifies completely orphan files or unused components that aren't imported anywhere in your routing tree, and generates a list (or auto-removes them) to clean the workspace.
+
+
 # Promt 1 
 Role: You are an expert Principal Frontend Architect.
 Context: I need to write a comprehensive README.md for a React micro-frontend (microview) application. This application uses Webpack/Vite Module Federation.
